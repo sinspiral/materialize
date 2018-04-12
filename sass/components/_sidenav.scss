@@ -16,7 +16,7 @@
   backface-visibility: hidden;
   transform: translateX(-105%);
 
-  @extend .z-depth-1;
+  @extend %z-depth-1;
 
   // Right Align
   &.right-aligned {
