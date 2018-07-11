@@ -1,13 +1,9 @@
 .modal {
-<<<<<<< HEAD
   &:focus {
     outline: none;
   }
 
-  @extend .z-depth-5;
-=======
   @extend %z-depth-5;
->>>>>>> a920ec88... Replace `@extends` with new placeholders.
 
   display: none;
   position: fixed;
